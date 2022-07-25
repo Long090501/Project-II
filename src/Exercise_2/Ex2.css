@@ -1,0 +1,25 @@
+.Ex2_title {
+    margin-bottom: 100px;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+.Ex2_container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(21, 114, 252);
+}
+
+.Ex2_item {
+    width:33.1%;
+    border: 1px solid black;
+    display: inline-block; 
+    text-align: center;
+}
+
+.Ex2_img {
+    width: 96%;
+    height: 200px;
+    margin: 2% 2% 3px 2%;
+}

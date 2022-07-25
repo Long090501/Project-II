@@ -1,0 +1,60 @@
+.Ex2choose_title {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    color: red;
+    transform: translateX(-50%);
+    font-size: 30px;
+}
+
+.Ex2choose_inputZone {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Ex2choose_input {
+    width: 200px;
+    height: 30px;
+    margin: 100px 30px; 
+    border: 3px green solid;
+}
+
+.Ex2choose_gridButton {
+    position: fixed;
+    width: 140px;
+    height: 40px;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    background-color: rgb(67, 101, 236);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Ex2choose_gridButton:hover {
+    color: white;
+    background-color: rgba(67, 101, 236, 0.8);
+}
+
+.Ex2choose_container {
+    margin-top: 200px;
+}
+
+.Ex2choose_item {
+    min-height: 30px;
+    text-align: center;
+    background-color: rgb(70, 131, 253);
+    border: 2px solid black;
+}
+
+.Ex2choose_selectIMG {
+    height: 20px;
+    margin: 5px;
+}
+.Ex2choose_img {
+    width: 98%;
+    height: calc(98% - 32px);
+    margin: 1%;
+}
