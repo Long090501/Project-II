@@ -1,5 +1,7 @@
 # Hướng dẫn cài đặt dự án Project II
 
+(Yêu cầu bắt buộc trước hết đó là phải cài đặt Node.js trong máy)
+
 Dự án của em hướng đến việc giải quyết 4 bài tập thực hành mà thầy giáo đã đưa ra trong học phần Project II
 
 Nội dung chính của chúng như sau:
@@ -33,9 +35,17 @@ Lúc này, thư mục "project_2" đã được tạo ra trong thư mục "Works
 
 ## Các bước cài đặt dự án Project II
 
-Sau khi đã cài đặt xong dự án React cơ bản như ở bên trên, việc tiếp theo cần làm đó chính là cài đặt dự án Project II sử dụng source code kéo về từ trên Git Hub
+Sau khi đã cài đặt xong dự án React cơ bản như ở bên trên, việc tiếp theo cần làm đó chính là cài đặt dự án Project II sử dụng source code trên Git Hub
 
-### `npm start`
+Để làm được điều này, chúng ta chỉ cần đưa các thư mục trong thư mục "src" ở trên Git Hub vào thư mục "src" ở trong dự án React cơ bản vừa cài đặt
+
+Tuy nhiên, để các chương trình có thể hoạt động một cách bình thường, chúng ta cần phải tiến hành cài đặt 1 số thư viện khác của React nhằm phục vụ cho xử lý ở các bài tập
+
+### `npm i @material-ui/core --legacy-peer-deps` (thư viện @material-ui/core cung cấp các công cụ cho xử lý Table, Calender và PopUpDiaLog
+
+### `npm i react-infinite-calendar`
+
+### `npm i json-server`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
