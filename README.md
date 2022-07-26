@@ -1,10 +1,39 @@
-# Hướng dẫn cài đặt dự án
+# Hướng dẫn cài đặt dự án Project II
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dự án của em hướng đến việc giải quyết 4 bài tập thực hành mà thầy giáo đã đưa ra trong học phần Project II
 
-## Available Scripts
+Nội dung chính của chúng như sau:
 
-In the project directory, you can run:
+- Bài tập 1: Thao tác với Data Table
+- Bài tập 2: Hiển thị ảnh theo lưới
+- Bài tập 3: Vẽ mê cung
+- Bài tập 4: Tạo simulation đối tượng di chuyển theo lịch trình được lập
+
+## Các bước cài đặt 1 dự án React cơ bản
+
+create-react-app là một thư viện giúp chúng ta đơn giản hóa trong quá trình cài đặt và xây dựng một dự án React.
+
+B1: Tải Git về máy để có thể sử dụng công cụ Git Bash giúp đơn giản hóa khi thao tác với terminal trong từng thư mục mà ta mong muốn.
+
+B2: Truy cập vào thư mục "Workspace" (là thư mục mà em đã tạo ra trên máy để lưu trữ dự án Project II của mình, hoàn toàn có thể tùy ý sửa tên thư mục theo ý thích của bản thân) và click chuột phải chọn "Git Bash Here"
+
+B3: Cửa sổ Git Bash hiện lên và ta sẽ chạy dòng lệnh sau để tạo ra 1 dự án React trong thư mục "Workspace":
+
+### `npx create-react-app tenduan` (Ở đây giả sử em sẽ đặt tên dự án là project_2)
+
+Quá trình này thường sẽ diễn ra trong vòng một vài phút.
+
+![Screenshot 2022-07-26 133041](https://user-images.githubusercontent.com/96682226/180938892-83983f83-1f22-4bb3-ab2d-ad11cc6f425c.png)
+
+Khi cửa sổ Git Bash hiển thị như hình trên tức là quá trình khởi tạo dự án đã hoàn tất.
+
+Lúc này, thư mục "project_2" đã được tạo ra trong thư mục "Workspace" chứa một dự án React cơ bản ban đầu
+
+![image](https://user-images.githubusercontent.com/96682226/180942680-bdb44864-a7f2-4da1-a214-9852c8ebfcd3.png)
+
+## Các bước cài đặt dự án Project II
+
+Sau khi đã cài đặt xong dự án React cơ bản như ở bên trên, việc tiếp theo cần làm đó chính là cài đặt dự án Project II sử dụng source code kéo về từ trên Git Hub
 
 ### `npm start`
 
