@@ -41,11 +41,13 @@ Sau khi đã cài đặt xong dự án React cơ bản như ở bên trên, vi�
 
 Tuy nhiên, để các chương trình có thể hoạt động một cách bình thường, chúng ta cần phải tiến hành cài đặt 1 số thư viện khác của React nhằm phục vụ cho xử lý ở các bài tập
 
-### `npm i @material-ui/core --legacy-peer-deps` (thư viện @material-ui/core cung cấp các công cụ cho xử lý Table, Calender và PopUpDiaLog
+### `npm i @material-ui/core --legacy-peer-deps` (thư viện @material-ui/core cung cấp xử lý Table và PopUpDiaLog)
 
-### `npm i react-infinite-calendar`
+### `npm i react-infinite-calendar` (thư viện react-infinite-calendar cung cấp xử lý Calendar)
 
-### `npm i json-server`
+### `npm i json-server` (thư viện json-server cung cấp xử lý REST API)
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
