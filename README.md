@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Hướng dẫn cài đặt dự án
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
